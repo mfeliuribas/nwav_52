@@ -1,6 +1,6 @@
 # Notes presentation
 
-Good morning, everyone! Thank you so much for coming. I will present to you an exploratory study on the acquisition of the variable perfective past time reference in Spanish among Spanish-English early bilinguals
+Good morning, everyone! I'm MFR, a phd student from RU, and I will present to you an exploratory study on the acquisition of the perfective past time reference in Spanish among Spanish-English early bilinguals
 
 # Studying Variation on Perfectivity
 
@@ -47,9 +47,9 @@ The linguistic variables that I manipulated were temporal reference and lexical 
 
 ---
 ### Statistical Analysis
-I ended up having a dataset of 504 tokens. I analyzed these data using a Bayesian multinomial logistic regression model in R. I also performed comparisons, taking 2Spaniards as the reference level, to find varying patterns across groups or at least confirm that there was a difference in the estimates that I was getting. 
+I ended up having a dataset of 504 tokens. I analyzed these data using a Bayesian multinomial logistic regression model in R.
 
-Before moving on to the results, I think that is important at least to mention a couple of things about BDA. Bayesian analysis focuses on understanding the whole range of possibilities within our data and how uncertain we are about them, instead of trying to estimate the only line of best fit. And, to do that, we report the results from the posterior distribution of the model, which represent all the possible outcomes and their corresponding probabilities. So I will not report any *p* values or use words such as *significant* but, rather, I will talk about the probability of the preterit and the present perfect of being selected.
+Before moving on to the results, I would to mention a couple of things about BDA. Bayesian analysis focuses on understanding the whole range of possibilities within our data and how uncertain we are about them, instead of trying to estimate the only line of best fit. And, to do that, we report the results from the posterior distribution of the model, which represent all the possible outcomes and their corresponding probabilities. So I will not report any *p* values but, rather, I will talk about the probability of the preterit and the present perfect of being selected.
 
 ---
 # Results
@@ -85,11 +85,11 @@ Overall, the PRET was favored in prehodiernal contexts, followed by hodiernal an
 For the PPERFT and "both" we see the opposite pattern.
 
 ---
-Here I added again the plot. 
+Here we can see a plot illustrating the results. 
 
-I really like this plot here, because I think that is giving us a lot of information, although we might not realize. As we can see, the credible intervals for the hodiernal and undetermined conditions are wider than those for the prehodiernal, which is not surprising, since the use of the present perfect and the preterit is variable in these context across Spanish varieties. However, I believe that this is telling us that, okay, there is a lot of variability in our data, but that probably something else is going on. 
+I really like this plot here, because I think that is giving us a lot of information. As we can see, the credible intervals for the hodiernal and undetermined conditions are wider than those for the prehodiernal, which is not surprising, since the use of the present perfect and the preterit is variable in these context across Spanish varieties. However, I believe that this is telling us that, okay, there is a lot of variability in our data, but that probably something else is going on. 
 
-And, in fact, when I examined temporal reference, which is what we see here, along with family origin, I found some interesting results. 
+And, in fact, when I examined temporal reference, along with family origin, I found some interesting results. 
 
 ---
 ### Temporal reference x Family origin
@@ -99,13 +99,13 @@ The PRET was strongly favored by Other in undetermined and hodiernal contexts, b
 The PPERF was favored by 2Spaniards in hodiernal and undetermined contexts when compared to Other and 1Spaniard, but when compared to Bidialectal, this difference was not that clear.
 
 ---
-# Discussion and Conclusion
-Okay, so let's recap: I found that the preterit was the preferred choice and the paradigm that was more likely to be selected in my dataset, and that the probability of selection of the present perfect varied as a function of family origin and temporal reference, but not lexical aspect. 
-
-The present perfect was favored in hodiernal and undetermined contexts by those participants with familial ties to Spain, but to varying degrees, and the probability of selecting it was higher for those participants with two parents from that country. Although I cannot draw any firm conclusions, these differences might be attributed to input quantity, as these groups differed in the variety and/or languages spoken at home, with 2Spaniards being supposedly more exposed to Peninsular Spanish.
-
-Taken together, the results indicate that Spanish-English early bilinguals can acquire the distinction between the past perfective time forms in Spanish. In addition, they show sensitivity to the constraints identified in previous studies with monolingual Spanish speakers, in the direction of effect established in previous work, suggesting that the variation in the selection of the preterit vs the present perfect is systematic.
+I don't think that I have enough time to talk about the plot what one thing I would like to highlight is that the credible intervals are narrower, so that the variability can be better explain considering temporal reference and family origin altogether. 
 
 ---
-This study offers valuable insights into factors that affect the variable selection of the PRET vs PPERF; represents a (first) step that aims to contribute to our understanding of the acquisition of variable norms; shows the complexity of the usage of perfective past time paradigms by Spanish-English early bilinguals, which is governed by both linguistic and extralinguistic factors; and reveals systematic variation akin to monolingual native speakers, especially for those participants with two Spanish-speaking parents.
+# Discussion and Conclusion
+Okay, so let's recap: I found that the preterit was the preferred choice and the paradigm that was more likely to be chosen, and that the probability of selection of the present perfect varied as a function of family origin and temporal reference, but not lexical aspect. 
+
+The present perfect was favored in hodiernal and undetermined contexts by those participants with familial ties to Spain, but to varying degrees, being the probability of selecting it higher for those participants with two parents from that country. Although I cannot draw any firm conclusions, these differences might be attributed to input quantity, as these groups differed in the variety and/or languages spoken at home, with 2Spaniards being supposedly more exposed to Peninsular Spanish.
+
+Taken together, the results indicate that Spanish-English early bilinguals can acquire the distinction between the past perfective time forms in Spanish. In addition, they show sensitivity to the constraints identified in previous monolingual studies, in the direction of effect established in previous work, suggesting that the variation in the selection of the preterit vs the present perfect is systematic. This systematic variation, then, is akin to monolingual native speakers, especially for those participants with two Spanish-speaking parents.
 
