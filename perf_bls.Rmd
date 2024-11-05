@@ -48,7 +48,7 @@ library(knitr)
 
 ---
 # Research Questions
-.black[1.] What is the frequency of choice of the Spanish preterit and present perfect forms by Spanish-English bilinguals raised in the United States?
+.black[1.] What is the frequency of choice of the Spanish preterit and present perfect forms by Spanish-English early bilinguals raised in the United States?
 
 .black[2.] How does family origin condition the selection of the perfective past time paradigms in Spanish?
 
@@ -86,9 +86,7 @@ library(knitr)
   + .black[Contextualized stories] followed by .black[two sentences] that differed only in the verb form
   
   + Participants had to .black[choose the form] they preferred: preterit, present perfect, or both 
-  
-  + In total, .black[37 items]: 18 were experimental stimuli
-  
+
   + Items controlled for clause type, person, verb type, and negation
 
   + Manipulated variables: 
@@ -97,6 +95,8 @@ library(knitr)
     
       + Lexical aspect: Telic - Atelic
   
+  + In total, .black[37 items]: 18 were experimental stimuli
+
 ???
 
 **Sample stimulus**
@@ -194,9 +194,12 @@ knitr::include_graphics("./figures/plot_prob_choice.png")
 
 + PRET is favored by Other compared to 2Spaniards
 
-+ No differences between 1Spaniard-2Spaniards and Bidialectal-2Spaniards as for the PRET
-
 + PPERF is favored by 2Spaniards compared to the other groups
+
+
+???
+
++ No differences between 1Spaniard-2Spaniards and Bidialectal-2Spaniards as for the PRET
 
 + "Both" more selected by Bidialectal and 1Spaniard, but no differences across groups
 
@@ -248,13 +251,17 @@ knitr::include_graphics("./figures/plot_tr_alone.png")
 
 + PRET is strongly favored by Other in undetermined and hodiernal contexts
 
-+ No differences between 1Spaniard-2Spaniards and Bidialectal-2Spaniards as for the PRET
-
 + PPERF is favored by 2Spaniards in hodiernal and undetermined contexts when compared to Other and 1Spaniard
 
 + When 2Spaniards is compared to Bidialectal, this difference is not that clear
 
+
+???
+
++ No differences between 1Spaniard-2Spaniards and Bidialectal-2Spaniards as for the PRET
+
 + No reliable evidence of a difference between groups across any of the temporal reference levels for "both" 
+
 
 ---
 <br>
@@ -269,7 +276,8 @@ knitr::include_graphics("./figures/plot_tref_fam.png")
 
 ```
 
----
+
+???
 <br>
 
 ### Lexical aspect
@@ -301,7 +309,7 @@ knitr::include_graphics("./figures/plot_la_alone.png")
 <br>
 
 + Limitations and Future steps
-    + Small sample size &rarr; Add more data to the model
+    + Add more data to the model + a control group
     
     + Perform all pairwise comparisons
     
